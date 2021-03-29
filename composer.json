@@ -14,11 +14,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "autoload":
-  {
+  "autoload": {
     "psr-4": {
       "WebHoanHao\\SimpleRouter\\": "src/"
     }
   }
-}
 }
