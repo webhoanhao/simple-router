@@ -1,6 +1,6 @@
 {
   "name": "webhoanhao/simple-router",
-  "description": "A very simple and small PHP router for your url routing in your project.",
+  "description": "A very simple and small PHP router for url routing in your project.",
   "type": "library",
   "version": "1.0.0",
   "require": {
