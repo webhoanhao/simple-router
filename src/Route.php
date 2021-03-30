@@ -81,7 +81,7 @@ class Route
                 break;
             }
         }
-        if (is_array($params) && count($params)) {
+        if (is_array($params) && count($params)>0) {
             $url .= '/'.implode('/',$params);
         }
         return $url;
