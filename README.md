@@ -8,13 +8,13 @@ A very simple and small PHP router for url routing in your project.
 // Require the router class
 include '../src/Route.php';
 
-// Require the controller class (in your project)
+// Require the controller class (change path to match your project)
 include '../app/Controllers/HomeController.php';
 
 // Use router namespace
 use WebHoanHao\SimpleRouter\Route;
 
-// Use app namespace (in your project)
+// Use app namespace (change namespace to match your project)
 use App\Controllers\HomeController;
 
 // Add your routes
@@ -41,7 +41,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 // Use router namespace
 use WebHoanHao\SimpleRouter\Route;
 
-// Use app namespace (in your project)
+// Use app namespace (change namespace to match your project)
 use App\Controllers\HomeController;
 
 // Add your routes
@@ -60,7 +60,7 @@ $url = Route::url('routeName');
 ```
 If there are some params
 ```php
-$url = Route::url('routeName',[$param_1,2,'param 3']);
+$url = Route::url('routeName',[$param_1,2,'param3']);
 ```
 
 ## Get params in target method
