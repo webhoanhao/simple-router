@@ -34,7 +34,7 @@ Route::run();
 For installation, just run 
 `composer require webhoanhao/simple-router`
 
-Than add the autoloader to your project like this:
+Then add the autoloader to your project like this:
 ```php
 // code in: ./public/index.php
 
