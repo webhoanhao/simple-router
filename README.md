@@ -1,10 +1,10 @@
 # simple-router
 
-# SimpleRouter
+## SimpleRouter
 
 A very simple and small PHP router for url routing in your project.
 
-## Simple example:
+### Simple example:
 ```php
 // code in: ./public/index.php
 
@@ -30,7 +30,7 @@ Route::add('/product-detail', ProductController::class,'detail','product-detail'
 Route::run();
 ```
 
-## Example with Composer  
+### Example with Composer  
 For installation, just run 
 `composer require webhoanhao/simple-router`
 
@@ -57,7 +57,7 @@ Route::add('/product-detail', ProductController::class,'detail','product-detail'
 Route::run();
 ```
 
-## Get URL from route BY NAME
+### Get URL from route BY NAME
 ```php
 $url = Route::url('routeName');
 ```
@@ -66,7 +66,7 @@ If there are some params
 $url = Route::url('routeName',[$param_1,2,'param3']);
 ```
 
-## Get params in target method
+### Get params in target method
 
 ```php
     public function detail($param1, $param2, $param3)
@@ -77,5 +77,5 @@ $url = Route::url('routeName',[$param_1,2,'param3']);
     }
 ```
 
-## License
+### License
 This project is licensed under the MIT License. See LICENSE for further information.
