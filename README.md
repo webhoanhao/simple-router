@@ -1,6 +1,7 @@
+# simple-router
+
 # SimpleRouter
 
-## SimpleRouter
 A very simple and small PHP router for url routing in your project.
 
 ## Simple example:
